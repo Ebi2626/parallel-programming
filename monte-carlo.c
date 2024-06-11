@@ -164,12 +164,11 @@ int main(int argc, char *argv[])
     printf("Input the total number of seeds: ");
     scanf("%d", &S);
 
+    // Pobranie czasu po wprowadzniu danych o ilości procesów i ziaren
+    // przez użytkownika
+    gettimeofday(&begin, 0);
     s = S;
   }
-
-  // Pobranie czasu po wprowadzniu danych o ilości procesów i ziaren
-  // przez użytkownika
-  gettimeofday(&begin, 0);
 
   // Rozgłaszanie wartości n to wszystkich procesów
   MPI_Bcast(&n, 1, MPI_INT, 0, MPI_COMM_WORLD);
@@ -181,16 +180,19 @@ int main(int argc, char *argv[])
 
   MPI_Finalize();
 
-  // Pobranie czasu zakończenia przebiegu programu
-  gettimeofday(&end, 0);
-
-  long seconds = end.tv_sec - begin.tv_sec;
-  long microseconds = end.tv_usec - begin.tv_usec;
-  double elapsed = seconds + microseconds * 1e-6;
-
   // Wyświetlenie informacji o czasie trwania programu (procesu nadrzędnego) przed zakończeniem
   if (rank == 0)
   {
+
+    // Pobranie czasu zakończenia przebiegu programu
+    gettimeofday(&end, 0);
+
+    // Obliczenie czasu
+    long seconds = end.tv_sec - begin.tv_sec;
+    long microseconds = end.tv_usec - begin.tv_usec;
+    double elapsed = seconds + microseconds * 1e-6;
+
+    // Wyświetlenie
     printf("Time measured: %.3f seconds.\n", elapsed);
   }
   return 0;
