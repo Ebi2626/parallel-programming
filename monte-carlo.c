@@ -8,7 +8,12 @@
 
 MPI_Status status;
 
-int n, s, S, rank, num_processes;
+int s, rank, num_processes;
+
+// Inicjalizacja liczby pętli i ziaren (100 000 iteracji i 100 ziaren)
+int n = 100000;
+int S = 100;
+
 // Zmienne związane z pomiarem czasu
 struct timeval begin, end;
 
@@ -156,13 +161,12 @@ int main(int argc, char *argv[])
   if (rank == 0)
   { // Proces nadrzędny
 
-    // Pobranie liczby punktów
-    printf("Input the total number of points: ");
-    scanf("%d", &n);
-
-    // Pobranie liczby ziaren
-    printf("Input the total number of seeds: ");
-    scanf("%d", &S);
+    // Odczytujemy argument programu - liczbę iteracji (i ziaren)
+    if (argc == 2)
+    {
+      n = atoi(argv[1]);
+      S = n;
+    }
 
     // Pobranie czasu po wprowadzniu danych o ilości procesów i ziaren
     // przez użytkownika
