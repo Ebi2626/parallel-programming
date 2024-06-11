@@ -164,7 +164,7 @@ int main(int argc, char *argv[])
     // Odczytujemy argument programu - liczbę iteracji (i ziaren)
     if (argc == 2)
     {
-      n = atoi(argv[1]);
+      n = sqrt((double)atoi(argv[1]));
       S = n;
     }
 
@@ -197,7 +197,7 @@ int main(int argc, char *argv[])
     double elapsed = seconds + microseconds * 1e-6;
 
     // Wyświetlenie
-    printf("Time measured: %.3f seconds.\n", elapsed);
+    printf("Time measured: %.3f seconds.\n\n\n", elapsed);
   }
   return 0;
 

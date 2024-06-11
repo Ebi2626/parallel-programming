@@ -20,7 +20,6 @@ int main(int argc, char *argv[])
   {
     n = atoi(argv[1]);
   }
-
   srand((unsigned int)time(NULL));
 
   gettimeofday(&begin, NULL);
@@ -38,6 +37,7 @@ int main(int argc, char *argv[])
   elapsed = seconds + microseconds * 1e-6;
 
   pi = (double)count / n * 4;
+  printf("\nn = %d", n);
   printf("\nPI Estimate:\t\t%f", pi);
   printf("\nEstimate Error:\t\t%f", fabs(PI - pi));
 
