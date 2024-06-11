@@ -22,10 +22,11 @@ Niniejszy program realizuje równoległe obliczenia liczby PI metodą Monte-Carl
 ### Sekwencyjne obliczanie liczby PI metodą Monte-Carlo
 
 ```
-./monte-carlo-seq
+./monte-carlo-seq <number_of_iteration>
 ```
 
-Po wyświetleniu liczby komend podajemy oczekiwaną liczbę losowań.
+- argument `<number_of_iteration>` jest typu `int` i jest opcjonalny - domyślnie zostanie wykonany milion iteracji
+- losowość liczb została ustawiona przez ustawienie ziarna przy każdym uruchomieniu w oparciu o punkt w czasie
 
 ### Równoległe obliczanie liczby PI metodą Monte-Carlo
 
