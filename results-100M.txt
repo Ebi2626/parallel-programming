@@ -1,0 +1,330 @@
+
+n = 100000000
+PI Estimate:		3.141400
+Estimate Error:		0.000192
+Time to Estimate PI:	2.488978s
+
+
+n = 100000000
+PI Estimate:		3.141328
+Estimate Error:		0.000265
+Time to Estimate PI:	2.482962s
+
+
+n = 100000000
+PI Estimate:		3.141287
+Estimate Error:		0.000306
+Time to Estimate PI:	2.483168s
+
+
+n = 100000000
+PI Estimate:		3.141520
+Estimate Error:		0.000073
+Time to Estimate PI:	2.483005s
+
+
+n = 100000000
+PI Estimate:		3.141760
+Estimate Error:		0.000167
+Time to Estimate PI:	2.483047s
+
+
+n = 100000000
+PI Estimate:		3.141603
+Estimate Error:		0.000010
+Time to Estimate PI:	2.483141s
+
+
+n = 100000000
+PI Estimate:		3.141527
+Estimate Error:		0.000066
+Time to Estimate PI:	2.483298s
+
+
+n = 100000000
+PI Estimate:		3.141888
+Estimate Error:		0.000296
+Time to Estimate PI:	2.482657s
+
+
+n = 100000000
+PI Estimate:		3.141499
+Estimate Error:		0.000094
+Time to Estimate PI:	2.482719s
+
+
+n = 100000000
+PI Estimate:		3.141589
+Estimate Error:		0.000004
+Time to Estimate PI:	2.482602s
+
+Master	Process #0	[KOMP313-12]
+Slave	Process #8	[KOMP313-12]
+Slave	Process #10	[KOMP313-12]
+Slave	Process #12	[KOMP313-12]
+Slave	Process #13	[KOMP313-12]
+Slave	Process #14	[KOMP313-12]
+Slave	Process #15	[KOMP313-12]
+Slave	Process #9	[KOMP313-12]
+Slave	Process #11	[KOMP313-12]
+Slave	Process #16	[KOMP313-12]
+Slave	Process #17	[KOMP313-12]
+Slave	Process #1	[KOMP313-12]
+Slave	Process #18	[KOMP313-12]
+Slave	Process #19	[KOMP313-12]
+Slave	Process #2	[KOMP313-12]
+Slave	Process #4	[KOMP313-12]
+Slave	Process #6	[KOMP313-12]
+Slave	Process #7	[KOMP313-12]
+Slave	Process #3	[KOMP313-12]
+Slave	Process #5	[KOMP313-12]
+N x S = 100000000
+PI Estimation: 3.136101
+Estimation Error: 0.005492
+Seeds Computed: [P1] -> 537 [P2] -> 535 [P3] -> 537 [P4] -> 537 [P5] -> 537 [P6] -> 535 [P7] -> 526 [P8] -> 435 [P9] -> 430 [P10] -> 432 [P11] -> 435 [P12] -> 706 [P13] -> 708 [P14] -> 706 [P15] -> 676 [P16] -> 434 [P17] -> 429 [P18] -> 431 [P19] -> 434 
+Time measured: 0.157 seconds.
+
+
+Master	Process #0	[KOMP313-12]
+Slave	Process #1	[KOMP313-12]
+Slave	Process #2	[KOMP313-12]
+Slave	Process #3	[KOMP313-12]
+Slave	Process #4	[KOMP313-12]
+Slave	Process #6	[KOMP313-12]
+Slave	Process #8	[KOMP313-12]
+Slave	Process #9	[KOMP313-12]
+Slave	Process #10	[KOMP313-12]
+Slave	Process #11	[KOMP313-12]
+Slave	Process #12	[KOMP313-12]
+Slave	Process #13	[KOMP313-12]
+Slave	Process #14	[KOMP313-12]
+Slave	Process #15	[KOMP313-12]
+Slave	Process #16	[KOMP313-12]
+Slave	Process #17	[KOMP313-12]
+Slave	Process #18	[KOMP313-12]
+Slave	Process #19	[KOMP313-12]
+Slave	Process #5	[KOMP313-12]
+Slave	Process #7	[KOMP313-12]
+N x S = 100000000
+PI Estimation: 3.136105
+Estimation Error: 0.005487
+Seeds Computed: [P1] -> 465 [P2] -> 757 [P3] -> 570 [P4] -> 465 [P5] -> 570 [P6] -> 465 [P7] -> 569 [P8] -> 465 [P9] -> 459 [P10] -> 570 [P11] -> 462 [P12] -> 570 [P13] -> 465 [P14] -> 570 [P15] -> 459 [P16] -> 570 [P17] -> 622 [P18] -> 465 [P19] -> 462 
+Time measured: 0.183 seconds.
+
+
+Master	Process #0	[KOMP313-12]
+Slave	Process #1	[KOMP313-12]
+Slave	Process #2	[KOMP313-12]
+Slave	Process #3	[KOMP313-12]
+Slave	Process #4	[KOMP313-12]
+Slave	Process #5	[KOMP313-12]
+Slave	Process #6	[KOMP313-12]
+Slave	Process #7	[KOMP313-12]
+Slave	Process #8	[KOMP313-12]
+Slave	Process #9	[KOMP313-12]
+Slave	Process #10	[KOMP313-12]
+Slave	Process #16	[KOMP313-12]
+Slave	Process #17	[KOMP313-12]
+Slave	Process #18	[KOMP313-12]
+Slave	Process #19	[KOMP313-12]
+Slave	Process #11	[KOMP313-12]
+Slave	Process #12	[KOMP313-12]
+Slave	Process #13	[KOMP313-12]
+Slave	Process #14	[KOMP313-12]
+Slave	Process #15	[KOMP313-12]
+N x S = 100000000
+PI Estimation: 3.136100
+Estimation Error: 0.005493
+Seeds Computed: [P1] -> 549 [P2] -> 549 [P3] -> 505 [P4] -> 429 [P5] -> 439 [P6] -> 443 [P7] -> 443 [P8] -> 722 [P9] -> 723 [P10] -> 722 [P11] -> 549 [P12] -> 549 [P13] -> 549 [P14] -> 548 [P15] -> 602 [P16] -> 353 [P17] -> 440 [P18] -> 443 [P19] -> 443 
+Time measured: 0.160 seconds.
+
+
+Master	Process #0	[KOMP313-12]
+Slave	Process #1	[KOMP313-12]
+Slave	Process #2	[KOMP313-12]
+Slave	Process #3	[KOMP313-12]
+Slave	Process #4	[KOMP313-12]
+Slave	Process #5	[KOMP313-12]
+Slave	Process #6	[KOMP313-12]
+Slave	Process #7	[KOMP313-12]
+Slave	Process #8	[KOMP313-12]
+Slave	Process #9	[KOMP313-12]
+Slave	Process #10	[KOMP313-12]
+Slave	Process #16	[KOMP313-12]
+Slave	Process #17	[KOMP313-12]
+Slave	Process #18	[KOMP313-12]
+Slave	Process #19	[KOMP313-12]
+Slave	Process #12	[KOMP313-12]
+Slave	Process #13	[KOMP313-12]
+Slave	Process #14	[KOMP313-12]
+Slave	Process #15	[KOMP313-12]
+Slave	Process #11	[KOMP313-12]
+N x S = 100000000
+PI Estimation: 3.136106
+Estimation Error: 0.005487
+Seeds Computed: [P1] -> 548 [P2] -> 547 [P3] -> 473 [P4] -> 440 [P5] -> 442 [P6] -> 445 [P7] -> 446 [P8] -> 727 [P9] -> 728 [P10] -> 726 [P11] -> 548 [P12] -> 547 [P13] -> 547 [P14] -> 548 [P15] -> 516 [P16] -> 439 [P17] -> 442 [P18] -> 445 [P19] -> 446 
+Time measured: 0.181 seconds.
+
+
+Master	Process #0	[KOMP313-12]
+Slave	Process #4	[KOMP313-12]
+Slave	Process #1	[KOMP313-12]
+Slave	Process #5	[KOMP313-12]
+Slave	Process #2	[KOMP313-12]
+Slave	Process #3	[KOMP313-12]
+Slave	Process #9	[KOMP313-12]
+Slave	Process #8	[KOMP313-12]
+Slave	Process #10	[KOMP313-12]
+Slave	Process #16	[KOMP313-12]
+Slave	Process #18	[KOMP313-12]
+Slave	Process #11	[KOMP313-12]
+Slave	Process #19	[KOMP313-12]
+Slave	Process #17	[KOMP313-12]
+Slave	Process #6	[KOMP313-12]
+Slave	Process #7	[KOMP313-12]
+Slave	Process #12	[KOMP313-12]
+Slave	Process #13	[KOMP313-12]
+Slave	Process #14	[KOMP313-12]
+Slave	Process #15	[KOMP313-12]
+N x S = 100000000
+PI Estimation: 3.136101
+Estimation Error: 0.005492
+Seeds Computed: [P1] -> 437 [P2] -> 437 [P3] -> 710 [P4] -> 708 [P5] -> 437 [P6] -> 548 [P7] -> 548 [P8] -> 436 [P9] -> 434 [P10] -> 714 [P11] -> 548 [P12] -> 548 [P13] -> 435 [P14] -> 432 [P15] -> 548 [P16] -> 549 [P17] -> 548 [P18] -> 436 [P19] -> 547 
+Time measured: 0.162 seconds.
+
+
+Master	Process #0	[KOMP313-12]
+Slave	Process #1	[KOMP313-12]
+Slave	Process #2	[KOMP313-12]
+Slave	Process #3	[KOMP313-12]
+Slave	Process #4	[KOMP313-12]
+Slave	Process #5	[KOMP313-12]
+Slave	Process #6	[KOMP313-12]
+Slave	Process #7	[KOMP313-12]
+Slave	Process #8	[KOMP313-12]
+Slave	Process #9	[KOMP313-12]
+Slave	Process #10	[KOMP313-12]
+Slave	Process #16	[KOMP313-12]
+Slave	Process #17	[KOMP313-12]
+Slave	Process #18	[KOMP313-12]
+Slave	Process #19	[KOMP313-12]
+Slave	Process #11	[KOMP313-12]
+Slave	Process #12	[KOMP313-12]
+Slave	Process #13	[KOMP313-12]
+Slave	Process #14	[KOMP313-12]
+Slave	Process #15	[KOMP313-12]
+N x S = 100000000
+PI Estimation: 3.136101
+Estimation Error: 0.005492
+Seeds Computed: [P1] -> 557 [P2] -> 557 [P3] -> 447 [P4] -> 445 [P5] -> 445 [P6] -> 449 [P7] -> 445 [P8] -> 731 [P9] -> 733 [P10] -> 730 [P11] -> 558 [P12] -> 557 [P13] -> 556 [P14] -> 557 [P15] -> 449 [P16] -> 445 [P17] -> 445 [P18] -> 449 [P19] -> 445 
+Time measured: 0.163 seconds.
+
+
+Master	Process #0	[KOMP313-12]
+Slave	Process #2	[KOMP313-12]
+Slave	Process #8	[KOMP313-12]
+Slave	Process #9	[KOMP313-12]
+Slave	Process #10	[KOMP313-12]
+Slave	Process #11	[KOMP313-12]
+Slave	Process #12	[KOMP313-12]
+Slave	Process #13	[KOMP313-12]
+Slave	Process #14	[KOMP313-12]
+Slave	Process #15	[KOMP313-12]
+Slave	Process #16	[KOMP313-12]
+Slave	Process #17	[KOMP313-12]
+Slave	Process #18	[KOMP313-12]
+Slave	Process #19	[KOMP313-12]
+Slave	Process #1	[KOMP313-12]
+Slave	Process #3	[KOMP313-12]
+Slave	Process #4	[KOMP313-12]
+Slave	Process #5	[KOMP313-12]
+Slave	Process #6	[KOMP313-12]
+Slave	Process #7	[KOMP313-12]
+N x S = 100000000
+PI Estimation: 3.136105
+Estimation Error: 0.005488
+Seeds Computed: [P1] -> 557 [P2] -> 557 [P3] -> 557 [P4] -> 557 [P5] -> 557 [P6] -> 556 [P7] -> 444 [P8] -> 445 [P9] -> 448 [P10] -> 448 [P11] -> 448 [P12] -> 731 [P13] -> 732 [P14] -> 730 [P15] -> 445 [P16] -> 444 [P17] -> 448 [P18] -> 448 [P19] -> 448 
+Time measured: 0.163 seconds.
+
+
+Master	Process #0	[KOMP313-12]
+Slave	Process #2	[KOMP313-12]
+Slave	Process #8	[KOMP313-12]
+Slave	Process #9	[KOMP313-12]
+Slave	Process #10	[KOMP313-12]
+Slave	Process #11	[KOMP313-12]
+Slave	Process #12	[KOMP313-12]
+Slave	Process #13	[KOMP313-12]
+Slave	Process #14	[KOMP313-12]
+Slave	Process #15	[KOMP313-12]
+Slave	Process #16	[KOMP313-12]
+Slave	Process #18	[KOMP313-12]
+Slave	Process #19	[KOMP313-12]
+Slave	Process #17	[KOMP313-12]
+Slave	Process #3	[KOMP313-12]
+Slave	Process #4	[KOMP313-12]
+Slave	Process #1	[KOMP313-12]
+Slave	Process #5	[KOMP313-12]
+Slave	Process #6	[KOMP313-12]
+Slave	Process #7	[KOMP313-12]
+N x S = 100000000
+PI Estimation: 3.136100
+Estimation Error: 0.005492
+Seeds Computed: [P1] -> 548 [P2] -> 548 [P3] -> 546 [P4] -> 548 [P5] -> 548 [P6] -> 547 [P7] -> 499 [P8] -> 438 [P9] -> 438 [P10] -> 438 [P11] -> 435 [P12] -> 714 [P13] -> 708 [P14] -> 713 [P15] -> 584 [P16] -> 437 [P17] -> 438 [P18] -> 438 [P19] -> 435 
+Time measured: 0.160 seconds.
+
+
+Master	Process #0	[KOMP313-12]
+Slave	Process #1	[KOMP313-12]
+Slave	Process #2	[KOMP313-12]
+Slave	Process #8	[KOMP313-12]
+Slave	Process #9	[KOMP313-12]
+Slave	Process #10	[KOMP313-12]
+Slave	Process #11	[KOMP313-12]
+Slave	Process #12	[KOMP313-12]
+Slave	Process #13	[KOMP313-12]
+Slave	Process #14	[KOMP313-12]
+Slave	Process #15	[KOMP313-12]
+Slave	Process #16	[KOMP313-12]
+Slave	Process #17	[KOMP313-12]
+Slave	Process #18	[KOMP313-12]
+Slave	Process #19	[KOMP313-12]
+Slave	Process #3	[KOMP313-12]
+Slave	Process #4	[KOMP313-12]
+Slave	Process #5	[KOMP313-12]
+Slave	Process #6	[KOMP313-12]
+Slave	Process #7	[KOMP313-12]
+N x S = 100000000
+PI Estimation: 3.136102
+Estimation Error: 0.005490
+Seeds Computed: [P1] -> 558 [P2] -> 557 [P3] -> 559 [P4] -> 558 [P5] -> 559 [P6] -> 558 [P7] -> 445 [P8] -> 446 [P9] -> 449 [P10] -> 449 [P11] -> 443 [P12] -> 728 [P13] -> 729 [P14] -> 732 [P15] -> 445 [P16] -> 445 [P17] -> 449 [P18] -> 448 [P19] -> 443 
+Time measured: 0.163 seconds.
+
+
+Master	Process #0	[KOMP313-12]
+Slave	Process #2	[KOMP313-12]
+Slave	Process #8	[KOMP313-12]
+Slave	Process #9	[KOMP313-12]
+Slave	Process #12	[KOMP313-12]
+Slave	Process #13	[KOMP313-12]
+Slave	Process #14	[KOMP313-12]
+Slave	Process #15	[KOMP313-12]
+Slave	Process #16	[KOMP313-12]
+Slave	Process #17	[KOMP313-12]
+Slave	Process #10	[KOMP313-12]
+Slave	Process #11	[KOMP313-12]
+Slave	Process #18	[KOMP313-12]
+Slave	Process #19	[KOMP313-12]
+Slave	Process #3	[KOMP313-12]
+Slave	Process #4	[KOMP313-12]
+Slave	Process #5	[KOMP313-12]
+Slave	Process #1	[KOMP313-12]
+Slave	Process #6	[KOMP313-12]
+Slave	Process #7	[KOMP313-12]
+N x S = 100000000
+PI Estimation: 3.136102
+Estimation Error: 0.005491
+Seeds Computed: [P1] -> 563 [P2] -> 564 [P3] -> 564 [P4] -> 564 [P5] -> 564 [P6] -> 563 [P7] -> 448 [P8] -> 449 [P9] -> 449 [P10] -> 450 [P11] -> 447 [P12] -> 732 [P13] -> 738 [P14] -> 738 [P15] -> 449 [P16] -> 449 [P17] -> 449 [P18] -> 373 [P19] -> 447 
+Time measured: 0.164 seconds.
+
+

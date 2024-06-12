@@ -10,6 +10,6 @@ do
 done
 
 for i in {1..10}
-do
-  mpirun -np 3 ./monte-carlo $1 >> ./results.txt
+do # Po np podajemy liczbe rdzeni do wykorzystania
+  mpirun -np 20 ./monte-carlo $1 >> ./results.txt
 done
