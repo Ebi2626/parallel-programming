@@ -31,9 +31,15 @@ Niniejszy program realizuje równoległe obliczenia liczby PI metodą Monte-Carl
 ### Równoległe obliczanie liczby PI metodą Monte-Carlo
 
 ```
-mpirun -np <num_procs> ./monte-carlo
+mpirun -np <num_procs> ./monte-carlo <number_of_iteration>
 ```
 
 Po wyświetleniu liczby komend podajemy oczekiwaną liczbę losowań.
+- argument `<number_of_iteration>` jest typu `int` i jest opcjonalny - domyślnie zostanie wykonany milion iteracji
+- losowość liczb została ustawiona przez ustawienie ziarna przy każdym uruchomieniu w oparciu o punkt w czasie
 
+### Skrypt eksperymentu (Linux)
+Plik `experiment.sh` zawiera skrypt powłoki bash, który pozwala uruchomić experyment zwracający wyniki 10 przebiegów obliczenia liczby PI metodą Monte-Carlo zarówno algorytmem sekwencyjnym jak i algorytmem równoległym. Wyniki obliczeń są umieszczane w pliku `results.txt`. Każde uruchomienie programu usuwa poprzedni plik z wynikami poprzedniego, dlatego należy zmienić jego nazwę przed ponownym uruchomieniem jeśli zależy nam na zapisaniu wyników eksperymentu. Parametry:
+- w pliku skryptu jest wpisana statyczna liczba rdzeni wykorzystanych przy obliczeniach - należy ją ręcznie ustawić przed uruchominiem pliku
+- sam skrypt przyjmuje argument, który jest liczbą iteracji jakie powinny wykonać obydwa algorytmy, jest on przekazywany do każdego z nich                            
 
